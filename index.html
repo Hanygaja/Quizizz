@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Quiz</title>
+</head>
+<body>
+    <!-- Top Section -->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-primary display-3 my-4">My Quiz</h2>
+        </div>
+    </div>
+
+    <!-- Result Section -->
+    <div class="result py-4 d-none bg-light text-center">
+        <div class="container lead">
+            <p>You are <span class="text-primary percentans display-4 p-3">0%</span>ninja</p>
+        </div>
+    </div>
+
+    <!-- Quiz Section -->
+    <div class="quiz py-4 bg-primary">
+        <div class="container">
+            <h2 class="my-5 text-white">Lets play...</h2>
+            <form class="quiz-form text-light">
+                <div class="my-5"> <!-- Question 1 -->
+                    <p class="lead font-weight-normal">1. What is the name of the German airline?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label class="form-check-label">Jetair</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="B">
+                        <label class="form-check-label">Lufthansa</label>
+                    </div>
+                </div>
+                <div class="my-5"> <!-- Question 2 -->
+                    <p class="lead font-weight-normal">2. Who invented Ferrari??</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label class="form-check-label">Enzo Ferrari</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="B">
+                        <label class="form-check-label">Roni Ferrari</label>
+                    </div>
+                </div>
+                <div class="my-5"> <!-- Question 3 -->
+                    <p class="lead font-weight-normal">3. How many stars feature on the flag of New Zealand?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label class="form-check-label">Five Stars</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="B">
+                        <label class="form-check-label">Four stars</label>
+                    </div>
+                </div>
+                <div class="my-5"> <!-- Question 4 -->
+                    <p class="lead font-weight-normal">4. Which South American country is named after Venice?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label class="form-check-label">Ecuador</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="B">
+                        <label class="form-check-label">Venezuela</label>
+                    </div>
+                </div>
+                <div class="my-5"> <!-- Question 5 -->
+                    <p class="lead font-weight-normal">5. What colour to do you get when you mix red and white?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="A" checked>
+                        <label class="form-check-label">Pink</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="B">
+                        <label class="form-check-label">Light-red</label>
+                    </div>
+                </div>
+                <div class="my-5"> <!-- Question 6 -->
+                    <p class="lead font-weight-normal">6. Which two months are named after Roman emperors?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q6" value="A" checked>
+                        <label class="form-check-label">July and August</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q6" value="B">
+                        <label class="form-check-label">March and April</label>
+                    </div>
+                </div>
+                <div class="my-5"> <!-- Question 7 -->
+                    <p class="lead font-weight-normal">7. In what year was Google launched on the web?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q7" value="A" checked>
+                        <label class="form-check-label">1992</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q7" value="B">
+                        <label class="form-check-label">1998</label>
+                    </div>
+                </div>
+                <div class="my-5"> <!-- Question 8 -->
+                    <p class="lead font-weight-normal">8. 	Which country sent its navy around the world to fight the Japanese in 1904?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q8" value="A" checked>
+                        <label class="form-check-label">USA</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q8" value="B">
+                        <label class="form-check-label">Russia</label>
+                    </div>
+                </div>
+                <div class="my-5"> <!-- Question 9 -->
+                    <p class="lead font-weight-normal">9. On which island was Napoleon born?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q9" value="A" checked>
+                        <label class="form-check-label">Corsica</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q9" value="B">
+                        <label class="form-check-label">Aeoliae</label>
+                    </div>
+                </div>
+                <div class="my-5"> <!-- Question 10 -->
+                    <p class="lead font-weight-normal">10. Who played Wolverine?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q10" value="A" checked>
+                        <label class="form-check-label">Hugh Jackman</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q10" value="B">
+                        <label class="form-check-label">Vinnie Jones</label>
+                    </div>
+                </div>
+                <div class="text-center"> <!-- Button -->
+                    <input type="submit" class="btn btn-light">
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
